@@ -8,5 +8,5 @@
     });
     return uniqueNumbers;
   };
-  console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5, 5, 5, 7, 8, 8]));
+  console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]));
 }

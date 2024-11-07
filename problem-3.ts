@@ -12,7 +12,7 @@
   };
   console.log(
     countWordOccurrences(
-      "TypeScript is great. I love TypeScript!",
+      "I love typescript",
       "typescript"
     )
   );
