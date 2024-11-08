@@ -1,6 +1,6 @@
 {
   
-  const validateKeys = <T extends {}>(obj: T, keys: (keyof T)[]): boolean => {
+  const validateKeys = <T>(obj: T, keys: (keyof T)[]): boolean => {
     for (const key of keys) {
       if (!obj[key]) {
         return false;
@@ -10,5 +10,5 @@
   };
 
   const person = { name: "Alice", age: 25, email: "alice@example.com" };
-  console.log(validateKeys(person, ["name", "age"]));
+  console.log(validateKeys(person, ["name", "age" ]));
 }
